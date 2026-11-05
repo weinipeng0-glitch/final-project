@@ -1,0 +1,91 @@
+
+/* 網頁基本設定 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, "Microsoft JhengHei", sans-serif;
+    background-color: #fff9e9;
+    color: #40352d;
+    line-height: 1.8;
+}
+
+/* 網站標題 */
+header {
+    background-color: #ffcc66;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    color: #d94b30;
+    font-size: 48px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* 導覽列 */
+nav {
+    background-color: #d94b30;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffdf85;
+}
+
+/* 內容區塊 */
+main section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #d94b30;
+}
+
+/* 側邊欄 */
+aside {
+    background-color: #fff0c2;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* 頁尾 */
+footer {
+    background-color: #40352d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 一般連結 */
+main a {
+    color: #d94b30;
+    font-weight: bold;
+}
+
+/* 第二市場照片 */
+.market-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    margin: 15px 0;
+}
